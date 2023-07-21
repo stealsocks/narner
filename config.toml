@@ -1,0 +1,39 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Nick Arner"
+# theme = "narner"
+
+copyright = "© Copyright Nicholas Arner, 2022"
+RSSLink = ""
+rssLimit = 20
+logo = ""
+orgName = ""
+orgWebsite = ""
+orgDescription = ""
+staticDir = "static"
+googleAnalytics = "UA-187116527-1"
+
+
+[author]
+	name = "Nick Arner"
+	email = "nicholasarner@gmail.com"
+
+[markup.goldmark.renderer]
+    unsafe = "true"
+
+  # [params]
+  # [menu]
+  #     [[menu.main]]
+  #     identifier = "main"
+  #     name = "Main"
+  #     url = "/home"
+  #     weight = 10
+  #
+  #     [[menu.main]]
+  #     identifier = "notes"
+  #     name = "Notes"
+  #     url = "/notes/"
+  #     weight = 10
+
+
+#http://cloudywithachanceofdevops.com/posts/2018/05/17/setting-up-google-analytics-on-hugo/
