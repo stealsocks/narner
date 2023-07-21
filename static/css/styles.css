@@ -127,7 +127,7 @@
 
 	.content{
 		max-width: 38rem;
-		width: calc(100vw - 23rem);
+		width: calc(100vw - 25rem);
 		display: inline-block;
 		padding: 0rem 3rem;
 		border-left: solid 0.5px #333;
@@ -196,6 +196,7 @@
 		text-align: right;
 		width: fit-content;
 		margin-top: 0.5rem;
+		width: 100%;
 	}
 
 	.home{
