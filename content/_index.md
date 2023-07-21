@@ -5,7 +5,7 @@ description: Nick Arner
 
 <i> Interfaces + Invention + Investing. Computers are great but they could be better. MacOS / iOS dev and occasional ML/HW tinkerer. </i>
 
-![Nick](/card.jpg "l-float") I'm a developer and researcher working in the field of Human-Computer Interaction.  I live and work in San Francisco, California. 
+![Nick](/headshot.jpg "l-float") I'm a developer and researcher working in the field of Human-Computer Interaction.  I live and work in San Francisco, California. 
 
 I’m currently available for small freelance iOS / macOS development projects, as well as technical writing and research work. I’ve done work for companies such as Tlon, Dusty Robotics, Roboflow, and Meter. 
 

@@ -18,6 +18,9 @@ googleAnalytics = "UA-187116527-1"
 	name = "Nick Arner"
 	email = "nicholasarner@gmail.com"
 
+[params]
+  description = "Nick's new site."
+
 [markup.goldmark.renderer]
     unsafe = "true"
 

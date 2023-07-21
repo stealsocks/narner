@@ -2,7 +2,7 @@
 <html>
 
 <head>
-        <title> {{ .Title }} • Nick Arner </title>
+        <title> {{ .Title }} • {{ .Site.Title }} </title>
         <meta charset="utf-8">
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
@@ -14,17 +14,17 @@
         <!-- Facebook Open Graph tags -->
         <meta property="og:url" content="https://nickarner.com" />
         <meta property="og:title" content="{{ .Title }}" />
-        <meta property="og:description" content="{{ .Description }}" />
+        <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .Site.Params.description }}{{ .Site.Params.description }}{{ else }} Page from Nick Arner's site. {{ end }}" />
         <meta property="og:image" content="https://nickarner.com/card.jpg" />
 
         <!-- Twitter Card (large image card) tags -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:creator" content="@joodaloop">
         <meta name="twitter:title" content="{{ .Title }}">
-        <meta name="twitter:description" content="{{ .Description }}" />
+        <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .Site.Params.description }}{{ .Site.Params.description }}{{ else }} Page from Nick Arner's site. {{ end }}" />
         <meta name="twitter:image" content="https://nickarner.com/card.jpg" />
 
-        <meta name="description" content="{{ .Description }}">
+        <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .Site.Params.description }}{{ .Site.Params.description }}{{ else }} Page from Nick Arner's site. {{ end }}">
         <link rel="stylesheet" type="text/css" href="/css/styles.css" />
 </head>
 
