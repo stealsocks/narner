@@ -37,4 +37,4 @@ This site is home to my [Notes](/notes) on HCI, new technologies, and software d
 
 Pages are served by Render, and hosted on Github. I use Hugo to generate the site itself, and use a custom theme developed by [Judah](https://webcraft.joodaloop.com).
 
-<i> You can subscribe to posts on this site using the [RSS feed](/index.xml). </i>
+You can subscribe to posts on this site using the [RSS feed](/index.xml). 
