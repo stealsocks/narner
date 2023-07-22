@@ -232,23 +232,26 @@
 	h1{
 		font-size: 2.6rem;
 		margin-top: 0em;
-		line-height: 1.3em;
+		line-height: 1.25em;
 	}
 
 	h2{
 		font-size: 1.8rem;
-		margin: 2em 0em 1em 0em;
+		margin: 1.6em 0em 0.8em 0em;
 		scroll-margin-top: 2rem;
+		line-height: 1.3em;
 	}
 
 	h3{
 		font-size: 1.3rem;
-		margin: 2em 0em 1em 0em;
+		margin: 1.6em 0em 1em 0em;
 		scroll-margin-top: 2rem;
+		line-height: 1.4em;
 	}
 
 	h4{
 		margin: 2em 0em 1em 0em;
+		line-height: 1.5em;
 		font-size: 1rem;
 	}
 
@@ -314,6 +317,10 @@
 
 		nav > a:hover{
 			letter-spacing: -0.5px;
+		}
+
+		p{
+			margin-bottom: 1.2rem;
 		}
 
 		.content{
