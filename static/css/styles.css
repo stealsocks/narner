@@ -110,7 +110,7 @@
 
 	body{
 		text-align: center;
-/*		font-family: IBM Plex, sans-serif;*/
+		font-family: IBM Plex, sans-serif;
 		line-height: 1.5em;
 		font-size: 18px;
 		color: var(--text);
