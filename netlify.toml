@@ -1,0 +1,20 @@
+baseURL = "/"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
+
+[build]
+  command = "hugo --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.114.0"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
+
+
+
